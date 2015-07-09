@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Imert</string>
+    <string-array name="asset_array">
+        <item>xxhdpi</item>
+        <item>xhdpi</item>
+        <item>hdpi</item>
+        <item>mdpi</item>
+        <item>ldpi</item>
+    </string-array>
+</resources>
