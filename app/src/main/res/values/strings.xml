@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Imert</string>
+    <string name="about">about</string>
+    <string name="about_imert">Imert is image convert, A simple application to help designers determine the size of each android asset size (xxhdpi, xhdpi, hdpi, mdpi, ldpi)</string>
+    <string name="copyright">© Zelory</string>
     <string-array name="asset_array">
+        <item>xxxhdpi</item>
         <item>xxhdpi</item>
         <item>xhdpi</item>
         <item>hdpi</item>

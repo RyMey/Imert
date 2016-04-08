@@ -7,7 +7,6 @@
                 android:paddingRight="@dimen/activity_horizontal_margin"
                 android:paddingTop="@dimen/activity_vertical_margin"
                 tools:context=".MainActivity">
-
     <TextView
         android:id="@+id/width_text_view"
         android:layout_width="match_parent"
@@ -70,8 +69,8 @@
         android:id="@+id/asset_spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
         android:layout_below="@id/asset_text_view"
+        android:layout_marginBottom="8dp"
         android:textColor="#212121"/>
 
     <Button
@@ -82,18 +81,48 @@
         android:onClick="displayAssetSize"
         android:text="convert"
         android:textColor="#FFF"/>
+
     <ScrollView
         android:id="@+id/asset_scroll_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/convert_button"
-        android:visibility="invisible">
-
+        android:visibility="gone">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="xxxhdpi"
+                android:textColor="#0097A7"/>
+
+            <TextView
+                android:id="@+id/width_xxxhdpi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="width\t:"
+                android:textColor="#212121"/>
+
+            <TextView
+                android:id="@+id/height_xxxhdpi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="height\t:"
+                android:textColor="#212121"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="8dp"
+                android:background="#0097A7"/>
 
             <TextView
                 android:layout_width="match_parent"
